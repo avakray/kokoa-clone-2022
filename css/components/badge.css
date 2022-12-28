@@ -1,0 +1,11 @@
+.badge{
+    background-color: tomato;
+    width: 26px;
+    height: 26px;
+    border-radius: 13px; /*사각형을 원으로 만들기 (절반px)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}

@@ -1,4 +1,8 @@
 .status-bar{
+    /* 고정코드 */
+    position: sticky;
+    top: 0px;
+    /* 정렬코드 */
     display:flex;
     justify-content: center;
     padding:  5px 3px;
