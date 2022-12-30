@@ -1,12 +1,16 @@
 .status-bar{
     /* 고정코드 */
-    position: sticky;
+    position: fixed;
     top: 0px;
+    width: 100%;
     /* 정렬코드 */
     display:flex;
+    flex-direction:row;
     justify-content: center;
     padding:  5px 3px;
+    z-index: 10;
 }
+
 
 .status-bar__column{
    width: 33%;
